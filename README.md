@@ -1,6 +1,6 @@
-# wonhj12/homebrew-tap
+# wonhajin/homebrew-tap
 
-Homebrew tap for [picpull](https://github.com/wonhj12/picpull).
+Homebrew tap for [picpull](https://github.com/wonhajin/picpull).
 
 ## Install
 
