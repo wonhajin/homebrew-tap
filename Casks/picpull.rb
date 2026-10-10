@@ -4,28 +4,28 @@ cask "picpull" do
 
   on_macos do
     on_arm do
-      sha256 "4efb6cd4d1cdfeba5656009512abcb5d5ca5d257446360a45eef2f899fe1e623"
-      url "https://github.com/wonhj12/picpull/releases/download/v#{version}/picpull_darwin_arm64.tar.gz"
+      sha256 "a5a7e84dd302ca73680eee72b2a5370034866a50b0e32359d043253df3c488df"
+      url "https://github.com/wonhajin/picpull/releases/download/v#{version}/picpull_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "982125ea0ee4029c4d3d9066343c91fd0033d69096ed3c1ddd319c548b64f70a"
-      url "https://github.com/wonhj12/picpull/releases/download/v#{version}/picpull_darwin_amd64.tar.gz"
+      sha256 "bbd4b8993a4c2a72951f3717cb091b21f51370eeb4f976fff882394b503780c4"
+      url "https://github.com/wonhajin/picpull/releases/download/v#{version}/picpull_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "e6db0898ec1e06a057c15110a66ac5d7ad0d4cbc1f07a052a7309aba8da1f049"
-      url "https://github.com/wonhj12/picpull/releases/download/v#{version}/picpull_linux_arm64.tar.gz"
+      sha256 "818e01fa12366dabfdac25704ee7c6217e1b2fcaaec9c0d4d7fea09d7e2aad31"
+      url "https://github.com/wonhajin/picpull/releases/download/v#{version}/picpull_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "07c638914244d078592eedcf798042c9bd8934cc435485a20ef911c9c24ebf7d"
-      url "https://github.com/wonhj12/picpull/releases/download/v#{version}/picpull_linux_amd64.tar.gz"
+      sha256 "dfc9719572c9e4bb7ddf5cafb7fb5f22ecfcd6aadc8211d2b69cfa2bb8c75133"
+      url "https://github.com/wonhajin/picpull/releases/download/v#{version}/picpull_linux_amd64.tar.gz"
     end
   end
 
   name "picpull"
   desc "Download the images on a web page in on-screen order"
-  homepage "https://github.com/wonhj12/picpull"
+  homepage "https://github.com/wonhajin/picpull"
 
   livecheck do
     skip "Auto-generated on release."
